@@ -1,16 +1,13 @@
 # PruebaCloud
 
-## Realizada para un puesto de trabajo como Cloud Enginner.
-
-
-# Pasos para crear un Dockerfile y realizar su respectivo Pull
+## Pasos para crear un Dockerfile y realizar su respectivo Pull
 
 #### Crear el Docker file con vim  Dockerfile
 - from nginx:alpine  == Siendo alpine la distribución Linux de nginx
 
 #### Copy es copiar un archivo de nuestra maquina al contenedor 
 - index.nginx-debian.html /usr/share/nginx/html/index.html
-#### El Dockerfile quedaría así
+#### El Dockerfile quedaría así: 
 ![Image text](https://github.com/CAMILOMARCHENA/PruebaCloud/blob/main/DockerFile%20image.PNG)
 #### Creamos una imagen de Dockerfile
 - docker build -t simple-nginx .
