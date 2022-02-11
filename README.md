@@ -11,7 +11,7 @@
 #### Copy es copiar un archivo de nuestra maquina al contenedor 
 - index.nginx-debian.html /usr/share/nginx/html/index.html
 #### El Dockerfile quedaría así
-![Image text](https://github.com/CAMILOMARCHENA/PruebaCloud/blob/main/DockerFile%20image.PNG.)
+![Image text](https://github.com/CAMILOMARCHENA/PruebaCloud/blob/main/DockerFile%20image.PNG)
 #### Creamos una imagen de Dockerfile
 - docker build -t simple-nginx .
 #### Le asignamos el Puerto y le cambiamos el nombre al server de gninx
